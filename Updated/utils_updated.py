@@ -2,10 +2,10 @@ from sentence_transformers import SentenceTransformer
 from pinecone import Pinecone, ServerlessSpec
 import openai
 import streamlit as st
-openai.api_key = "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"
+openai.api_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
-pinecone = Pinecone(api_key='14f2629d-1604-44da-82a8-003ca5f560ed')
+pinecone = Pinecone(api_key='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
 index = pinecone.Index('convo-chat')
 
 def find_match(input):
