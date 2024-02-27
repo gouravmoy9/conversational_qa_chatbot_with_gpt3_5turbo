@@ -26,7 +26,7 @@ if 'buffer_memory' not in st.session_state:
 
 st.title("LangChain Chatbot")
 
-llm = ChatOpenAI(model="gpt-3.5-turbo-0125", api_key="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")
+llm = ChatOpenAI(model="gpt-3.5-turbo-0125", api_key="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
 
 sys_msg_tp = SystemMessagePromptTemplate.from_template(template='''Answer the question as truthfully as possible using the provided context, and if the answer is not contained within the text below, say 'I don't know''')
 
